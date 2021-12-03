@@ -33,15 +33,15 @@ else:
 ### HEADERS ###
 
 def banner():
-    print("""\x1b[0;34m   ______     __ __       __
-\x1b[0;34m  / ____/____/ // / _____/ /__\x1b[0;34m|| SELAMAT
-\x1b[0;34m / /   / ___/ // /_/ ___/ //_/\x1b[0;34m|| DATANG
-\x1b[0;34m/ /___/ /  /__  __/ /__/ ,<   \x1b[0;34m|| SELAMAT
-\x1b[0;34m\____/_/\x1b[0;36mV3.1 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;37m|| MEMAKAI
+    print("""\x1b[0;32m   ______     __ __       __
+\x1b[0;32m  / ____/____/ // / _____/ /__\x1b[0;32m|| SELAMAT
+\x1b[0;32m / /   / ___/ // /_/ ___/ //_/\x1b[0;32m|| DATANG
+\x1b[0;33m/ /___/ /  /__  __/ /__/ ,<   \x1b[0;33m|| SELAMAT
+\x1b[0;33m\____/_/\x1b[0;36mV3.1 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;33m|| MEMAKAI
 \x1b[0;37m------------------------------------------------------------------------------------------------
-\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Author   : BINTANG-XD
-\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Github   : Github.com/lupaa
-\x1b[0;33m[\x1b[1;97m•\x1b[0;33m]\x1b[0;37m Facebook : Bintang Tzy
+\x1b[0;33m[\x1b[1;97m*.\x1b[0;33m]\x1b[0;37m Author   : BINTANG-XD
+\x1b[0;33m[\x1b[1;97m*.\x1b[0;33m]\x1b[0;37m Version  : 5.2
+\x1b[0;33m[\x1b[1;97m*.\x1b[0;33m]\x1b[0;37m Facebook : Bintang Tzy
 \x1b[0;37m------------------------------------------------------------------------------------------------
 """)
 host="https://mbasic.facebook.com"
@@ -311,23 +311,23 @@ def menu():
     ip = requests.get("https://api.ipify.org").text
     ngr = open('country.txt', 'r').read()
     if "id" in ngr:
-        negara = "Indonesia"
+        negara = "INDONESIA"
     elif "bd" in ngr:
-        negara = "Prindapan/India"
+        negara = "INDIA"
     elif "pk" in ngr:
-        negara = "Pakistan"
+        negara = "PAKISTAN"
     elif "us" in ngr:
-        negara = "USA"
+        negara = "AMERIKA"
     elif " " in ngr:
-        negara = "None"
+        negara = "NONE"
     os.system("clear")
     banner()
     print((k+"\n[ "+p+"Selamat Datang "+a["name"]+k+" ]"+p))
-    print((k+"\n["+p+"+"+k+"]"+p+" Id pengguna : \x1b[0;33m"+id))
-    print((k+"["+p+"+"+k+"]"+p+" IP address : \x1b[0;33m"+ip))
-    print((k+"["+p+"+"+k+"]"+p+" Status  : "+o+"Premium"+b))
-    print((k+"["+p+"+"+k+"]"+p+" Join  : \x1b[0;33m"+durasi))
-    print((k+"["+p+"+"+k+"]"+p+" Crack   : \x1b[0;33m"+negara))
+    print((k+"\n["+p+"+"+k+"]"+p+" Id pengguna   : \x1b[0;33m"+id))
+    print((k+"["+p+"+"+k+"]"+p+" IP address    : \x1b[0;33m"+ip))
+    print((k+"["+p+"+"+k+"]"+p+" Status        : "+o+"Premium"+b))
+    print((k+"["+p+"+"+k+"]"+p+" Join          : \x1b[0;33m"+durasi))
+    print((k+"["+p+"+"+k+"]"+p+" Crack         : \x1b[0;33m"+negara))
     print((k+"\n["+p+"01"+k+"]"+p+". \x1b[0;33mCrack ID Dari Publik/Followers"))
     print((k+"["+p+"02"+k+"]"+p+". \x1b[0;33mCrack ID Dari Followers"))
     print((k+"["+p+"03"+k+"]"+p+". \x1b[0;33mCrack ID Dari Like Postingan"))
@@ -657,7 +657,6 @@ def generate(text):
 					results.append("bismillah")
 					results.append("anjing")
 					results.append("123456")
-                                        results.append("Jancok 123")
 				elif "bd" in ct:
 					results.append("786786")
 					results.append("000786")
