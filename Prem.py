@@ -812,7 +812,7 @@ class crack:
 		self.ko=0
 		print((k+"\n["+p+"?"+k+"]"+p+" Ingin Menggunakan Password Manual [d/m]"))
 		while True:
-			f=input(k+"["+p+"•"+k+"]"+p+" Pilih : results.append("123456")")
+			f=input(k+"["+p+"•"+k+"]"+p+" Pilih : \x1b[0;33m")
 			if f=="":continue
 			elif f=="m":
 				try:
