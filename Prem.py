@@ -37,7 +37,7 @@ def banner():
 \x1b[0;32m  / ____/____/ // / _____/ /__\x1b[0;32m|| SELAMAT
 \x1b[0;32m / /   / ___/ // /_/ ___/ //_/\x1b[0;32m|| DATANG
 \x1b[0;33m/ /___/ /  /__  __/ /__/  /   \x1b[0;33m|| SELAMAT
-\x1b[0;33m\____/_/\x1b[0;36mV3.1 \x1b[0;34m/_/  \___/_/|_|  \x1b[0;33m|| MEMAKAI
+\x1b[0;33m\____/_/\x1b[0;36mV3.1 \x1b[0;33m/_/  \___/_/|_|  \x1b[0;33m|| MEMAKAI
 \x1b[0;37m------------------------------------------------------------------------------------------------
 \x1b[0;33m[\x1b[1;97m*.\x1b[0;33m]\x1b[0;37m Author   : BINTANG-XD
 \x1b[0;33m[\x1b[1;97m*.\x1b[0;33m]\x1b[0;37m Version  : 5.2
@@ -372,8 +372,8 @@ def choose_menu():
 		menu()	
 
 def pilihcrack(file):
-  print((k+"\n["+p+"01"+k+"]"+p+" ("+k+"Api + Fast"+p+")"))
-  print((k+"["+p+"02"+k+"]"+p+" "+k+"Api + TTL "+p+")"))
+  print((k+"\n["+p+"01"+k+"]"+p+" "+k+"Api + Fast"+p+""))
+  print((k+"["+p+"02"+k+"]"+p+" "+k+"Api + TTL "+p+""))
   print((k+"["+p+"03"+k+"]"+p+" "+k+"Mbasic + Recommended"+p+""))
   print((k+"["+p+"04"+k+"]"+p+" "+k+"Mbasic + TTL"+p+""))
   print((k+"["+p+"05"+k+"]"+p+" "+k+"Free Facebook"+p+""))
@@ -651,7 +651,7 @@ def generate(text):
 			else:
 				results.append(i+"123")
 				results.append(i+"12345")
-				results.append(i)
+				results.append(i+"Angga 123")
 				if "id" in ct:
 					results.append("sayang")
 					results.append("bismillah")
