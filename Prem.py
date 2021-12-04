@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 #-*-coding:utf-8-*-
+# BINTANG-XD
 
 import requests,mechanize,bs4,sys,os,subprocess,uuid,random,time,re,base64,concurrent.futures,json,ipaddress
 from random import randint
